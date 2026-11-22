@@ -16,10 +16,6 @@ const envSchema = z.object({
 
   FIRESTORE_EMULATOR_HOST: z.string().optional(),
 
-  NVIDIA_NIM_API_KEY: z.string().min(1),
-  NVIDIA_NIM_BASE_URL: z.string().url().default('https://integrate.api.nvidia.com/v1'),
-  NVIDIA_NIM_MODEL: z.string().min(1).default('meta/llama-3.1-70b-instruct'),
-
   CLOUDINARY_CLOUD_NAME: z.string().optional(),
   CLOUDINARY_API_KEY: z.string().optional(),
   CLOUDINARY_API_SECRET: z.string().optional(),

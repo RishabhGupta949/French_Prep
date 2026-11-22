@@ -1,3 +1,4 @@
+
 import { config } from 'dotenv';
 import { existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
@@ -8,22 +9,21 @@ const currentDirectory = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(currentDirectory, '../..');
 const envPath = resolve(projectRoot, '.env');
 
-// Fail immediately if the root .env is missing.
-if (!existsSync(envPath)) {
-  throw new Error(`Environment file not found: ${envPath}`);
+// Load local .env when available.
+// In production, Render injects environment variables directly.
+if (existsSync(envPath)) {
+  const dotenvResult = config({ path: envPath });
+
+  if (dotenvResult.error) {
+    throw dotenvResult.error;
+  }
+
+  console.log(`Environment loaded from: ${envPath}`);
+} else {
+  console.log('No .env file found; using process environment variables.');
 }
-
-// Load environment before importing application modules.
-const dotenvResult = config({ path: envPath });
-
-if (dotenvResult.error) {
-  throw dotenvResult.error;
-}
-
-console.log(`Environment loaded from: ${envPath}`);
 
 async function main() {
-  // Import only after dotenv has loaded.
   const { getEnv } = await import('./config/env.js');
   const env = getEnv();
 
@@ -31,7 +31,7 @@ async function main() {
   const app = buildApp();
 
   const server = app.listen(env.PORT, '0.0.0.0', () => {
-    console.log(`Server running on http://localhost:${env.PORT}`);
+    console.log(`Server running on port ${env.PORT}`);
   });
 
   server.on('error', (error) => {
