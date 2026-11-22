@@ -1,0 +1,20 @@
+[
+  {
+    "unitId": "unit-1",
+    "title": "Getting Started",
+    "description": "Essential French greetings, introductions, and everyday phrases",
+    "order": 0
+  },
+  {
+    "unitId": "unit-2",
+    "title": "Everyday Life",
+    "description": "French for cafés, food shopping and paying",
+    "order": 1
+  },
+  {
+    "unitId": "unit-3",
+    "title": "Community and Travel",
+    "description": "French for family, shopping and directions",
+    "order": 2
+  }
+]

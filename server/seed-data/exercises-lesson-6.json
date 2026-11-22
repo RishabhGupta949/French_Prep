@@ -1,0 +1,94 @@
+[
+  {
+    "exerciseId": "ex-6-1",
+    "lessonId": "lesson-6",
+    "order": 0,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you ask for the check?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "L'addition, s'il vous plaît" },
+        { "id": "b", "text": "L'addition, s'il vous won" },
+        { "id": "c", "text": "L'addition, s'il vous pizza" }
+      ]
+    },
+    "explanation": "'L'addition, s'il vous plaît' means 'The check, please'."
+  },
+  {
+    "exerciseId": "ex-6-2",
+    "lessonId": "lesson-6",
+    "order": 1,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What do you tip in France?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "10-15%" },
+        { "id": "b", "text": "1-5%" },
+        { "id": "c", "text": "No tipping" }
+      ]
+    },
+    "explanation": "Service is included in France, but 10-15% is appreciated for good service."
+  },
+  {
+    "exerciseId": "ex-6-3",
+    "lessonId": "lesson-6",
+    "order": 2,
+    "type": "FILL_BLANK",
+    "prompt": "When paying, you hand over your card and say \"Carte ____.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Blue"
+    },
+    "explanation": "'Carte bleue' is the French term for a credit card (literally 'blue card')."
+  },
+  {
+    "exerciseId": "ex-6-4",
+    "lessonId": "lesson-6",
+    "order": 3,
+    "type": "FILL_BLANK",
+    "prompt": "To split the bill, you say \"L'addition ____, s'il vous plaît.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Half"
+    },
+    "explanation": "'L'addition à moitié' means 'Half the bill, please'."
+  },
+  {
+    "exerciseId": "ex-6-5",
+    "lessonId": "lesson-6",
+    "order": 4,
+    "type": "WORD_BANK",
+    "prompt": "Build the phrase: 'I'd like to pay, please.'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Je" },
+        { "id": "w2", "text": "veux" },
+        { "id": "w3", "text": "payer" },
+        { "id": "w4", "text": "s'il" },
+        { "id": "w5", "text": "vous" },
+        { "id": "w6", "text": "plaît" }
+      ]
+    },
+    "explanation": "'Je veux payer, s'il vous plaît' means 'I would like to pay, please'."
+  },
+  {
+    "exerciseId": "ex-6-6",
+    "lessonId": "lesson-6",
+    "order": 5,
+    "type": "WORD_BANK",
+    "prompt": "Build the question: 'How much does it cost?'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Combien" },
+        { "id": "w2", "text": "ça" },
+        { "id": "w3", "text": "coûte" },
+        { "id": "w4", "text": "?" }
+      ]
+    },
+    "explanation": "'Combien ça coûte?' means 'How much does it cost?'"
+  }
+]

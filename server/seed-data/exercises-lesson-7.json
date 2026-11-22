@@ -1,0 +1,92 @@
+[
+  {
+    "exerciseId": "ex-7-1",
+    "lessonId": "lesson-7",
+    "order": 0,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you say 'my mother' in French?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Ma mère" },
+        { "id": "b", "text": "Mon père" },
+        { "id": "c", "text": "Ma sœur" }
+      ]
+    },
+    "explanation": "'Ma mère' means 'my mother'."
+  },
+  {
+    "exerciseId": "ex-7-2",
+    "lessonId": "lesson-7",
+    "order": 1,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What does 'le frère' mean?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "brother" },
+        { "id": "b", "text": "sister" },
+        { "id": "c", "text": "parent" }
+      ]
+    },
+    "explanation": "'Le frère' means 'brother'."
+  },
+  {
+    "exerciseId": "ex-7-3",
+    "lessonId": "lesson-7",
+    "order": 2,
+    "type": "FILL_BLANK",
+    "prompt": "To say 'his father', you say \"___ père.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "His"
+    },
+    "explanation": "'Son père' means 'his father'."
+  },
+  {
+    "exerciseId": "ex-7-4",
+    "lessonId": "lesson-7",
+    "order": 3,
+    "type": "FILL_BLANK",
+    "prompt": "To say 'their daughter', you say \"___ fille.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Their"
+    },
+    "explanation": "'Leur fille' means 'their daughter'."
+  },
+  {
+    "exerciseId": "ex-7-5",
+    "lessonId": "lesson-7",
+    "order": 4,
+    "type": "WORD_BANK",
+    "prompt": "Build the phrase: 'My sister is nice.'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Ma" },
+        { "id": "w2", "text": "sœur" },
+        { "id": "w3", "text": "est" },
+        { "id": "w4", "text": "sympathique" }
+      ]
+    },
+    "explanation": "'Ma sœur est sympathique' means 'My sister is nice'."
+  },
+  {
+    "exerciseId": "ex-7-6",
+    "lessonId": "lesson-7",
+    "order": 5,
+    "type": "WORD_BANK",
+    "prompt": "Build the question: 'How many brothers do you have?'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Combien" },
+        { "id": "w2", "text": "de" },
+        { "id": "w3", "text": "frères" },
+        { "id": "w4", "text": "avez-vous" }
+      ]
+    },
+    "explanation": "'Combien de frères avez-vous?' means 'How many brothers do you have?'"
+  }
+]

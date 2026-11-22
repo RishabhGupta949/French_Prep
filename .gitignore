@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Firebase service account credentials
+/*firebase-adminsdk*.json
+/service-account.json
+/firebase-service-account.json
+/french-prep-e4c18-firebase-adminsdk-fbsvc-f8058900b4.json
+french-prep-e4c18-firebase-adminsdk-fbsvc-f8058900b4.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

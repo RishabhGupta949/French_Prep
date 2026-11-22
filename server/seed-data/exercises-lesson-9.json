@@ -1,0 +1,95 @@
+[
+  {
+    "exerciseId": "ex-9-1",
+    "lessonId": "lesson-9",
+    "order": 0,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you ask 'Where is the museum?'",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Où est le musée?" },
+        { "id": "b", "text": "Comment aller au musée?" },
+        { "id": "c", "text": "Quelle est le musée?" }
+      ]
+    },
+    "explanation": "'Où est le musée?' means 'Where is the museum?'."
+  },
+  {
+    "exerciseId": "ex-9-2",
+    "lessonId": "lesson-9",
+    "order": 1,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you say 'to the left'?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "à gauche" },
+        { "id": "b", "text": "à droite" },
+        { "id": "c", "text": "tout droit" }
+      ]
+    },
+    "explanation": "'À gauche' means 'to the left'."
+  },
+  {
+    "exerciseId": "ex-9-3",
+    "lessonId": "lesson-9",
+    "order": 2,
+    "type": "FILL_BLANK",
+    "prompt": "To say 'Go straight', you say \"____.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Straight ahead"
+    },
+    "explanation": "'Tout droit' means 'Go straight'."
+  },
+  {
+    "exerciseId": "ex-9-4",
+    "lessonId": "lesson-9",
+    "order": 3,
+    "type": "FILL_BLANK",
+    "prompt": "To ask 'Is it far?', you say \"C'est ___ loin?\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Not very"
+    },
+    "explanation": "'C'est peu loin' means 'It is not far'."
+  },
+  {
+    "exerciseId": "ex-9-5",
+    "lessonId": "lesson-9",
+    "order": 4,
+    "type": "WORD_BANK",
+    "prompt": "Build the phrase: 'Can you show me the way?'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Pouvez" },
+        { "id": "w2", "text": "vous" },
+        { "id": "w3", "text": "me" },
+        { "id": "w4", "text": "montrer" },
+        { "id": "w5", "text": "le" },
+        { "id": "w6", "text": "chemin" }
+      ]
+    },
+    "explanation": "'Pouvez-vous me montrer le chemin?' means 'Can you show me the way?'."
+  },
+  {
+    "exerciseId": "ex-9-6",
+    "lessonId": "lesson-9",
+    "order": 5,
+    "type": "WORD_BANK",
+    "prompt": "Build the question: 'Where is the train station?'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Où" },
+        { "id": "w2", "text": "est" },
+        { "id": "w3", "text": "la" },
+        { "id": "w4", "text": "gare" },
+        { "id": "w5", "text": "?" }
+      ]
+    },
+    "explanation": "'Où est la gare?' means 'Where is the train station?'."
+  }
+]

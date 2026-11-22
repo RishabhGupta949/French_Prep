@@ -1,0 +1,97 @@
+[
+  {
+    "exerciseId": "ex-8-1",
+    "lessonId": "lesson-8",
+    "order": 0,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you ask 'How much is this?'",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Combien ça coûte" },
+        { "id": "b", "text": "Où est ce" },
+        { "id": "c", "text": "Où sont les toilettes" }
+      ]
+    },
+    "explanation": "'Combien ça coûte?' means 'How much is it?'."
+  },
+  {
+    "exerciseId": "ex-8-2",
+    "lessonId": "lesson-8",
+    "order": 1,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What do you say when you enter a shop?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Bonjour!" },
+        { "id": "b", "text": "Au revoir!" },
+        { "id": "c", "text": "Salut!" }
+      ]
+    },
+    "explanation": "'Bonjour!' means 'Hello!' when entering a shop."
+  },
+  {
+    "exerciseId": "ex-8-3",
+    "lessonId": "lesson-8",
+    "order": 2,
+    "type": "FILL_BLANK",
+    "prompt": "To say 'I'd like this, please', you say \"Je voudrais ____, s'il vous plaît.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Some bread"
+    },
+    "explanation": "'Je voudrais un pain, s'il vous plaît' means 'I would like some bread, please'."
+  },
+  {
+    "exerciseId": "ex-8-4",
+    "lessonId": "lesson-8",
+    "order": 3,
+    "type": "FILL_BLANK",
+    "prompt": "To pay cash, you say \"Je paie en ____.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Cash"
+    },
+    "explanation": "'En espèces' means 'in cash'."
+  },
+  {
+    "exerciseId": "ex-8-5",
+    "lessonId": "lesson-8",
+    "order": 4,
+    "type": "WORD_BANK",
+    "prompt": "Build the phrase: 'I'd like to buy this.'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Je" },
+        { "id": "w2", "text": "veux" },
+        { "id": "w3", "text": "acheter" },
+        { "id": "w4", "text": "ce" },
+        { "id": "w5", "text": "s'il" },
+        { "id": "w6", "text": "vous" },
+        { "id": "w7", "text": "plaît" }
+      ]
+    },
+    "explanation": "'Je veux acheter ce, s'il vous plaît' means 'I would like to buy this, please'."
+  },
+  {
+    "exerciseId": "ex-8-6",
+    "lessonId": "lesson-8",
+    "order": 5,
+    "type": "WORD_BANK",
+    "prompt": "Build the question: 'Do you have this in size medium?'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Avez" },
+        { "id": "w2", "text": "vous" },
+        { "id": "w3", "text": "ce" },
+        { "id": "w4", "text": "en" },
+        { "id": "w5", "text": "taille" },
+        { "id": "w6", "text": "medium" }
+      ]
+    },
+    "explanation": "'Avez-vous ce en taille medium?' means 'Do you have this in size medium?'"
+  }
+]

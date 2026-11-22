@@ -1,0 +1,94 @@
+[
+  {
+    "exerciseId": "ex-4-1",
+    "lessonId": "lesson-4",
+    "order": 0,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you order a coffee in French?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Je voudrais un café, s'il vous plaît" },
+        { "id": "b", "text": "Je suis un café" },
+        { "id": "c", "text": "C'est un café" }
+      ]
+    },
+    "explanation": "'Je voudrais un café, s'il vous plaît' means 'I would like a coffee, please'."
+  },
+  {
+    "exerciseId": "ex-4-2",
+    "lessonId": "lesson-4",
+    "order": 1,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What do you say when you want the check?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "L'addition, s'il vous plaît" },
+        { "id": "b", "text": "L'addition, s'il vous won" },
+        { "id": "c", "text": "L'addition, s'il vous pizza" }
+      ]
+    },
+    "explanation": "'L'addition, s'il vous plaît' means 'The check, please'."
+  },
+  {
+    "exerciseId": "ex-4-3",
+    "lessonId": "lesson-4",
+    "order": 2,
+    "type": "FILL_BLANK",
+    "prompt": "When you arrive at the café, you say \"____.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Good day"
+    },
+    "explanation": "'Bonjour' means 'Good day' or 'Hello' used during the day."
+  },
+  {
+    "exerciseId": "ex-4-4",
+    "lessonId": "lesson-4",
+    "order": 3,
+    "type": "FILL_BLANK",
+    "prompt": "To ask for wine, you say \"Vin ____, s'il vous plaît.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Red"
+    },
+    "explanation": "'Vin rouge' means 'red wine'."
+  },
+  {
+    "exerciseId": "ex-4-5",
+    "lessonId": "lesson-4",
+    "order": 4,
+    "type": "WORD_BANK",
+    "prompt": "Build the phrase: 'I'd like tea, please.'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Je" },
+        { "id": "w2", "text": "veux" },
+        { "id": "w3", "text": "thé" },
+        { "id": "w4", "text": "s'il" },
+        { "id": "w5", "text": "vous" },
+        { "id": "w6", "text": "plaît" }
+      ]
+    },
+    "explanation": "'Je veux thé s'il vous plaît' means 'I would like tea, please' (note: proper French is 'Je voudrais un thé, s'il vous plaît')."
+  },
+  {
+    "exerciseId": "ex-4-6",
+    "lessonId": "lesson-4",
+    "order": 5,
+    "type": "WORD_BANK",
+    "prompt": "Build the question: 'What do you recommend?'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Qu'est-ce" },
+        { "id": "w2", "text": "que" },
+        { "id": "w3", "text": "vous" },
+        { "id": "w4", "text": "recommandez" }
+      ]
+    },
+    "explanation": "'Qu'est-ce que vous recommandez?' means 'What do you recommend?'"
+  }
+]

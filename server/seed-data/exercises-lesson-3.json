@@ -1,0 +1,89 @@
+[
+  {
+    "exerciseId": "ex-3-1",
+    "lessonId": "lesson-3",
+    "order": 0,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you say 'I don't understand' in French?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Je ne comprends pas" },
+        { "id": "b", "text": "Je ne sais pas" },
+        { "id": "c", "text": "Je ne parle pas" }
+      ]
+    },
+    "explanation": "'Je ne comprends pas' means 'I don't understand'. 'Je ne sais pas' means 'I don't know'."
+  },
+  {
+    "exerciseId": "ex-3-2",
+    "lessonId": "lesson-3",
+    "order": 1,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What does 'Pouvez-vous répéter ?' mean?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Can you help me?" },
+        { "id": "b", "text": "Can you repeat?" },
+        { "id": "c", "text": "Can you speak slower?" }
+      ]
+    },
+    "explanation": "'Pouvez-vous répéter ?' is the formal way to ask 'Can you repeat?'"
+  },
+  {
+    "exerciseId": "ex-3-3",
+    "lessonId": "lesson-3",
+    "order": 2,
+    "type": "FILL_BLANK",
+    "prompt": "To say 'Yes', you say \"___\".",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "The basic word for yes"
+    },
+    "explanation": "'Oui' means 'Yes' in French."
+  },
+  {
+    "exerciseId": "ex-3-4",
+    "lessonId": "lesson-3",
+    "order": 3,
+    "type": "FILL_BLANK",
+    "prompt": "The number 2 in French is \"___\".",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Number two"
+    },
+    "explanation": "'Deux' is the number 2 in French."
+  },
+  {
+    "exerciseId": "ex-3-5",
+    "lessonId": "lesson-3",
+    "order": 4,
+    "type": "WORD_BANK",
+    "prompt": "Build the French sentence for: 'No, thank you.'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Non" },
+        { "id": "w2", "text": "merci" }
+      ]
+    },
+    "explanation": "'Non, merci' means 'No, thank you.'"
+  },
+  {
+    "exerciseId": "ex-3-6",
+    "lessonId": "lesson-3",
+    "order": 5,
+    "type": "WORD_BANK",
+    "prompt": "Build the question: 'Do you speak English?' (formal)",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Parlez-vous" },
+        { "id": "w2", "text": "anglais" },
+        { "id": "w3", "text": "?" }
+      ]
+    },
+    "explanation": "'Parlez-vous anglais ?' means 'Do you speak English?' (formal)."
+  }
+]

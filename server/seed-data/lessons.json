@@ -1,0 +1,101 @@
+[
+  {
+    "lessonId": "lesson-1",
+    "unitId": "unit-1",
+    "title": "Greetings and Politeness",
+    "description": "Learn basic French greetings and polite expressions",
+    "order": 0,
+    "sequence": 0,
+    "previousLessonId": null,
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  },
+  {
+    "lessonId": "lesson-2",
+    "unitId": "unit-1",
+    "title": "Introducing Yourself",
+    "description": "Learn how to introduce yourself and ask for names in French",
+    "order": 1,
+    "sequence": 1,
+    "previousLessonId": "lesson-1",
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  },
+  {
+    "lessonId": "lesson-3",
+    "unitId": "unit-1",
+    "title": "Everyday Phrases",
+    "description": "Essential French phrases for daily communication",
+    "order": 2,
+    "sequence": 2,
+    "previousLessonId": "lesson-2",
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  },
+  {
+    "lessonId": "lesson-4",
+    "unitId": "unit-2",
+    "title": "At the Café",
+    "description": "Order drinks and snacks in a French café",
+    "order": 3,
+    "sequence": 3,
+    "previousLessonId": "lesson-3",
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  },
+  {
+    "lessonId": "lesson-5",
+    "unitId": "unit-2",
+    "title": "Food and Menu",
+    "description": "Ask for dishes and understand menu items in French",
+    "order": 4,
+    "sequence": 4,
+    "previousLessonId": "lesson-4",
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  },
+  {
+    "lessonId": "lesson-6",
+    "unitId": "unit-2",
+    "title": "Paying the Bill",
+    "description": "Handle transactions and ask for the check in French",
+    "order": 5,
+    "sequence": 5,
+    "previousLessonId": "lesson-5",
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  },
+  {
+    "lessonId": "lesson-7",
+    "unitId": "unit-3",
+    "title": "Family and Relations",
+    "description": "Talk about family members and relationships in French",
+    "order": 6,
+    "sequence": 6,
+    "previousLessonId": "lesson-6",
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  },
+  {
+    "lessonId": "lesson-8",
+    "unitId": "unit-3",
+    "title": "Shopping",
+    "description": "Buy items and ask prices in French markets",
+    "order": 7,
+    "sequence": 7,
+    "previousLessonId": "lesson-7",
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  },
+  {
+    "lessonId": "lesson-9",
+    "unitId": "unit-3",
+    "title": "Directions and Travel",
+    "description": "Ask for and give directions in French",
+    "order": 8,
+    "sequence": 8,
+    "previousLessonId": "lesson-8",
+    "estimatedMinutes": 10,
+    "exerciseCount": 6
+  }
+]

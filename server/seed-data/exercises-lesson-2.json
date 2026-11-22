@@ -1,0 +1,108 @@
+[
+  {
+    "exerciseId": "ex-2-1",
+    "lessonId": "lesson-2",
+    "order": 0,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you say 'My name is...' in French?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Je m'appelle..." },
+        { "id": "b", "text": "Je suis..." },
+        { "id": "c", "text": "Il s'appelle..." }
+      ]
+    },
+    "explanation": "'Je m'appelle' literally means 'I call myself' and is the standard way to say 'My name is'."
+  },
+  {
+    "exerciseId": "ex-2-2",
+    "lessonId": "lesson-2",
+    "order": 1,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What does 'Comment tu t'appelles ?' mean?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "How old are you?" },
+        { "id": "b", "text": "What is your name?" },
+        { "id": "c", "text": "Where are you from?" }
+      ]
+    },
+    "explanation": "'Comment tu t'appelles ?' is the informal way to ask 'What is your name?'"
+  },
+  {
+    "exerciseId": "ex-2-3",
+    "lessonId": "lesson-2",
+    "order": 2,
+    "type": "FILL_BLANK",
+    "prompt": "To say 'I am a student', you say \"Je ___ étudiant.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "I am (first person singular of être)"
+    },
+    "explanation": "'Je suis' means 'I am'. The verb 'être' (to be) conjugates as 'suis' for 'je'."
+  },
+  {
+    "exerciseId": "ex-2-4",
+    "lessonId": "lesson-2",
+    "order": 3,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "\"Enchanté\" means \"Nice to meet you\" (said by a man). How would a woman say it?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Enchantée"
+        },
+        {
+          "id": "o2",
+          "text": "Enchanté"
+        },
+        {
+          "id": "o3",
+          "text": "Enchantés"
+        },
+        {
+          "id": "o4",
+          "text": "Merci"
+        }
+      ]
+    },
+    "explanation": "A woman says 'Enchantée' with an extra 'e' for the feminine form."
+  },
+  {
+    "exerciseId": "ex-2-5",
+    "lessonId": "lesson-2",
+    "order": 4,
+    "type": "WORD_BANK",
+    "prompt": "Build the French sentence for: 'I am Marie.'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Je" },
+        { "id": "w2", "text": "m'appelle" },
+        { "id": "w3", "text": "Marie" }
+      ]
+    },
+    "explanation": "'Je m'appelle Marie' means 'My name is Marie' (literally 'I call myself Marie')."
+  },
+  {
+    "exerciseId": "ex-2-6",
+    "lessonId": "lesson-2",
+    "order": 5,
+    "type": "WORD_BANK",
+    "prompt": "Build the question: 'What is your name?' (formal)",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Comment" },
+        { "id": "w2", "text": "vous" },
+        { "id": "w3", "text": "appelez-vous" },
+        { "id": "w4", "text": "?" }
+      ]
+    },
+    "explanation": "'Comment vous appelez-vous ?' is the formal way to ask 'What is your name?'"
+  }
+]

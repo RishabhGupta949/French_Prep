@@ -1,0 +1,38 @@
+[
+  {
+    "exerciseId": "ex-3-1",
+    "lessonId": "lesson-3",
+    "type": "MULTIPLE_CHOICE",
+    "correctOptionId": "a"
+  },
+  {
+    "exerciseId": "ex-3-2",
+    "lessonId": "lesson-3",
+    "type": "MULTIPLE_CHOICE",
+    "correctOptionId": "b"
+  },
+  {
+    "exerciseId": "ex-3-3",
+    "lessonId": "lesson-3",
+    "type": "FILL_BLANK",
+    "acceptedAnswers": ["Oui"]
+  },
+  {
+    "exerciseId": "ex-3-4",
+    "lessonId": "lesson-3",
+    "type": "FILL_BLANK",
+    "acceptedAnswers": ["Deux"]
+  },
+  {
+    "exerciseId": "ex-3-5",
+    "lessonId": "lesson-3",
+    "type": "WORD_BANK",
+    "correctTokenIds": ["w1", "w2"]
+  },
+  {
+    "exerciseId": "ex-3-6",
+    "lessonId": "lesson-3",
+    "type": "WORD_BANK",
+    "correctTokenIds": ["w1", "w2", "w3"]
+  }
+]

@@ -1,0 +1,72 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Deny all direct client access by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Learning content is readable by authenticated users via the backend only
+    // The backend uses Firebase Admin SDK which bypasses these rules
+    // These rules exist to prevent any accidental client-side access
+
+    // Email lookups - only backend can write
+    match /emailLookups/{emailHash} {
+      allow read, write: if false;
+    }
+
+    // Users - only backend can access
+    match /users/{userId} {
+      allow read, write: if false;
+
+      match /refreshSessions/{sessionId} {
+        allow read, write: if false;
+      }
+
+      match /lessonProgress/{lessonId} {
+        allow read, write: if false;
+      }
+
+      match /lessonAttempts/{attemptId} {
+        allow read, write: if false;
+
+        match /answers/{exerciseId} {
+          allow read, write: if false;
+        }
+      }
+
+      match /reviewItems/{exerciseId} {
+        allow read, write: if false;
+
+        match /attempts/{reviewAttemptId} {
+          allow read, write: if false;
+        }
+      }
+
+      match /dailyActivity/{localDate} {
+        allow read, write: if false;
+      }
+    }
+
+    // Learning paths - only backend can write, but could allow read if needed
+    match /learningPaths/{pathId} {
+      allow read, write: if false;
+
+      match /units/{unitId} {
+        allow read, write: if false;
+      }
+
+      match /lessons/{lessonId} {
+        allow read, write: if false;
+
+        match /exercises/{exerciseId} {
+          allow read, write: if false;
+        }
+
+        match /answerKeys/{exerciseId} {
+          allow read, write: if false;
+        }
+      }
+    }
+  }
+}

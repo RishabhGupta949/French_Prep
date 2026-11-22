@@ -1,0 +1,95 @@
+[
+  {
+    "exerciseId": "ex-5-1",
+    "lessonId": "lesson-5",
+    "order": 0,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "How do you ask for the menu?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Le menu, s'il vous plaît" },
+        { "id": "b", "text": "La menu, s'il vous plaît" },
+        { "id": "c", "text": "Les menu, s'il vous plaît" }
+      ]
+    },
+    "explanation": "'Le menu, s'il vous plaît' means 'The menu, please'."
+  },
+  {
+    "exerciseId": "ex-5-2",
+    "lessonId": "lesson-5",
+    "order": 1,
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "What does 'une omelette' mean?",
+    "content": {
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        { "id": "a", "text": "Omelette" },
+        { "id": "b", "text": "Salad" },
+        { "id": "c", "text": "Soup" }
+      ]
+    },
+    "explanation": "'Une omelette' is 'omelette' in French."
+  },
+  {
+    "exerciseId": "ex-5-3",
+    "lessonId": "lesson-5",
+    "order": 2,
+    "type": "FILL_BLANK",
+    "prompt": "When you're hungry, you say \"J'ai ____.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Hunger"
+    },
+    "explanation": "'J'ai faim' means 'I am hungry'. Note: 'soif' is for thirst."
+  },
+  {
+    "exerciseId": "ex-5-4",
+    "lessonId": "lesson-5",
+    "order": 3,
+    "type": "FILL_BLANK",
+    "prompt": "To order water, you say \"Une eau ____, s'il vous plaît.\"",
+    "content": {
+      "type": "FILL_BLANK",
+      "hint": "Still"
+    },
+    "explanation": "'Une eau plate' means 'Still water'."
+  },
+  {
+    "exerciseId": "ex-5-5",
+    "lessonId": "lesson-5",
+    "order": 4,
+    "type": "WORD_BANK",
+    "prompt": "Build the phrase: 'I'd like the omelette, please.'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Je" },
+        { "id": "w2", "text": "veux" },
+        { "id": "w3", "text": "l'" },
+        { "id": "w4", "text": "omelette" },
+        { "id": "w5", "text": "s'il" },
+        { "id": "w6", "text": "vous" },
+        { "id": "w7", "text": "plaît" }
+      ]
+    },
+    "explanation": "'Je veux l'omelette, s'il vous plaît' means 'I would like the omelette, please'."
+  },
+  {
+    "exerciseId": "ex-5-6",
+    "lessonId": "lesson-5",
+    "order": 5,
+    "type": "WORD_BANK",
+    "prompt": "Build the question: 'What do you recommend?'",
+    "content": {
+      "type": "WORD_BANK",
+      "wordBank": [
+        { "id": "w1", "text": "Qu'est-ce" },
+        { "id": "w2", "text": "que" },
+        { "id": "w3", "text": "vous" },
+        { "id": "w4", "text": "recommandez" }
+      ]
+    },
+    "explanation": "'Qu'est-ce que vous recommandez?' means 'What do you recommend?'"
+  }
+]
